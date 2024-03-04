@@ -7,7 +7,8 @@ Running the project might not work but can be tried
 2. Make sure postgres is running in local system 
 3. With postgres running, follow these commands in a terminal [database setup](#database-setup)
 4. Run migrations - follow these steps - [managing migrations with alembic](#managing-database-migrations-with-alembic)
-5. Go to localhost:8000/list  to see all the patients, start adding a nw patient from the browser
+5. In the terminal run command - $ python manage.py runserver
+6. Go to localhost:8000/list  to see all the patients, start adding a new patient from the ui
 
 ## Info
 Viewsets are not created here because they were creating problems when using sqlalchemy base model
